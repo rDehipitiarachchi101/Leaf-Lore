@@ -1,0 +1,15 @@
+# Local development database. Credentials are dev-only defaults.
+services:
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: leaflore
+      POSTGRES_USER: leaflore
+      POSTGRES_PASSWORD: leaflore
+    ports:
+      - "5433:5432"
+    volumes:
+      - leaflore-db:/var/lib/postgresql/data
+
+volumes:
+  leaflore-db:
