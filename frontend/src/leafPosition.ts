@@ -18,6 +18,5 @@
 export type Point = { x: number; y: number }
 
 export function leafPosition(i: number, k: number): Point {
-  // PLACEHOLDER: replace with the spiral.
   return { x: i * k * 2.5, y: 0 }
 }
