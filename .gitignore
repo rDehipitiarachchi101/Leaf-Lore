@@ -1,0 +1,19 @@
+# Learner notes (local only)
+.vibe-wise/
+
+# Env / secrets
+.env
+.env.*
+
+# Backend build output
+backend/target/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.iml
